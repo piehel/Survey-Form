@@ -1,0 +1,80 @@
+body {
+    font-family: "SUSE", sans-serif;
+    color: white;
+    padding-bottom: 2rem;
+    background-image: url(./2.jpg);
+}
+
+header {
+    text-align: center;
+    color: rgb(228, 215, 215);
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+
+h1 {
+    margin-bottom: 0%;
+}
+
+header > p {
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+form {
+    width: 60vw;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: rgba(20, 20, 56, 0.9);;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+div {
+    display: block;
+}
+
+.form-gr {
+    margin-bottom: 1em;
+}
+
+label {
+    display: flex;
+}
+
+#name, #email, #number, textarea, #dropdown, #submit {
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.recommend, .improve {
+    margin-bottom: 0.5em;
+}
+
+textarea {
+    height: unset;
+    margin-top: 2px;
+}
+
+.checkbox {
+    display: inline-block;
+}
+
+input[type=radio] {
+    border: 0px;
+    margin-right: 0.7rem;  
+    margin-bottom: 0.5rem;
+}
+
+input[type=checkbox] {
+    border: 0px;
+    margin-right: 0.7rem;  
+    margin-bottom: 0.5rem;
+}

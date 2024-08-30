@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>  
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">pieHeL Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+      </header>  
+
+      <div class="form">
+        <form id="survey-form">
+          <div class="form-gr">
+            <label id="name-label">Name: </label>
+              <input id="name" type="text" placeholder=" Enter your name" required/>
+            <label id="email-label">Email: </label>
+              <input id="email" type="email" placeholder=" Enter your email" required />  
+            <label id="number-label">Age: </label>
+              <input id="number" type="number" min="10" max="99" placeholder=" Enter your age" required/>
+
+            <label>What is your favorite feature of pieHeL?</label>
+              <select id="dropdown">
+                  <option>Select your love</option>
+                  <option>Handsome</option>
+                  <option>Sexy</option>
+                  <option>Personalities</option>
+                  <option>Hard-working</option>
+                  <option>Personalities</option>
+              </select>
+          </div>
+
+          <div class="form-gr">
+            <p  class="recommend">Would you recommend this site to your friends</p>
+            <label for="def"><input class="inline" id="def" type="radio" value="1" name="choice" checked/> Definitely</label>
+            <label for="may"><input class="inline" id="may" type="radio" value="2" name="choice" /> Maybe</label>
+            <label for="not"><input class="inline" id="not" type="radio" value="3" name="choice" /> Not sure</label>
+          </div>
+
+          <div class="form-gr">
+            <p class="improve">What would you like to see improved?</p>
+            <lable for="n1"><input class="checkbox" type="checkbox" id="n1" value="n1" /> Bot gian vo ly</lable><br>
+            <lable for="n2"><input class="checkbox" type="checkbox" id="n2" value="n2" /> Khong dua dai</lable><br>
+            <lable for="n3"><input class="checkbox" type="checkbox" id="n3" value="n3" /> Khong lao nhao</lable><br>
+            <lable for="n4"><input class="checkbox" type="checkbox" id="n4" value="n4" /> It xem tiktok</lable><br>
+            <lable for="n5"><input class="checkbox" type="checkbox" id="n5" value="n5" /> Bot ve que</lable><br>
+            <lable for="n6"><input class="checkbox" type="checkbox" id="n6" value="n6" /> Tu nghi nha</lable>
+          </div>
+
+          <div class="form-gr">
+            <p>Any comments or suggestions?</p>
+              <label for="bio"><textarea id="bio" name="bio" placeholder="Enter your comments here..." rows="10" cols="30"></textarea></label>
+          </div>
+
+          <label><input id="submit" type="submit" value="Submit" /></label>
+
+        </form>  
+      </div>
+    </div>
+  </body>
+</html>  
